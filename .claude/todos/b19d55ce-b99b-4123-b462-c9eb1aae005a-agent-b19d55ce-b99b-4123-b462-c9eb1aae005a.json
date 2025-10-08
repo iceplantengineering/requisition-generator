@@ -1,0 +1,38 @@
+[
+  {
+    "content": "Visual Components 3Dロボット作成・配置",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "ロボット動作プログラミング・実行",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "TwinCAT PLCプロジェクト作成・変数設定",
+    "status": "pending",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "スクリプトファイル保存",
+    "status": "completed",
+    "priority": "high",
+    "id": "4"
+  },
+  {
+    "content": "READMEドキュメント作成",
+    "status": "completed",
+    "priority": "high",
+    "id": "5"
+  },
+  {
+    "content": "GitHubリポジトリ作成・アップロード",
+    "status": "completed",
+    "priority": "medium",
+    "id": "6"
+  }
+]

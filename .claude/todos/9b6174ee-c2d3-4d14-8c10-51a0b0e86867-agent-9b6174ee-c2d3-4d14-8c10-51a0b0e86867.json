@@ -1,0 +1,27 @@
+[
+  {
+    "content": "既存のテスト用ファイルをバックアップする",
+    "status": "completed",
+    "activeForm": "既存のテスト用ファイルをバックアップ中"
+  },
+  {
+    "content": "新しいTwinCATプロジェクトを作成する",
+    "status": "in_progress",
+    "activeForm": "新しいTwinCATプロジェクトを作成中"
+  },
+  {
+    "content": "基本的なPLCプロジェクトを追加する",
+    "status": "pending",
+    "activeForm": "基本的なPLCプロジェクトを追加中"
+  },
+  {
+    "content": "簡単なテスト用コードを作成する",
+    "status": "pending",
+    "activeForm": "簡単なテスト用コードを作成中"
+  },
+  {
+    "content": "プロジェクトをビルドして動作確認する",
+    "status": "pending",
+    "activeForm": "プロジェクトをビルドして動作確認中"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Analyze existing v2 manual structure and identify integration gaps",
+    "status": "completed",
+    "activeForm": "Analyzed v2 manual structure and integration gaps"
+  },
+  {
+    "content": "Design integrated system architecture overview",
+    "status": "completed",
+    "activeForm": "Designed integrated system architecture overview"
+  },
+  {
+    "content": "Create comprehensive v3 manual with holistic system description",
+    "status": "in_progress",
+    "activeForm": "Creating comprehensive v3 manual with holistic system description"
+  },
+  {
+    "content": "Document system-wide workflows and data flows",
+    "status": "pending",
+    "activeForm": "Documenting system-wide workflows and data flows"
+  },
+  {
+    "content": "Add integration points and module interactions",
+    "status": "pending",
+    "activeForm": "Adding integration points and module interactions"
+  }
+]

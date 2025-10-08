@@ -1,0 +1,42 @@
+[
+  {
+    "content": "高度な3D建物モデルを作成（建物、設備、コンベア、配管、配線、ダクト等）",
+    "status": "completed",
+    "id": "create-complex-3d-model"
+  },
+  {
+    "content": "新しいエンティティタイプ（コンベア、設備機器等）に対応",
+    "status": "completed",
+    "id": "extend-entity-types"
+  },
+  {
+    "content": "複雑なレイヤー構造とエンティティ階層を実装",
+    "status": "completed",
+    "id": "enhance-layer-structure"
+  },
+  {
+    "content": "3D表示を改善（建物構造、設備機器の立体表示）",
+    "status": "completed",
+    "id": "improve-3d-visualization"
+  },
+  {
+    "content": "Phase3Demoファイルの破損を修復して高度なモデルを使用できるようにする",
+    "status": "completed",
+    "id": "fix-phase3-demo-file"
+  },
+  {
+    "content": "エンティティに境界ボックス自動計算機能を追加して干渉検出を有効化",
+    "status": "completed",
+    "id": "add-bounds-calculation"
+  },
+  {
+    "content": "開発サーバーで高度な建物モデルをテストして干渉検出を確認",
+    "status": "completed",
+    "id": "test-complex-model"
+  },
+  {
+    "content": "GitHubに全ての変更をコミット・プッシュ",
+    "status": "completed",
+    "id": "git-push-changes"
+  }
+]

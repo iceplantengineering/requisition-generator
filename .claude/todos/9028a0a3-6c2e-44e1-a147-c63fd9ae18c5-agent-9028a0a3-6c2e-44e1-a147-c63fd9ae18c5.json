@@ -1,0 +1,20 @@
+[
+  {
+    "content": "Phase 4: バーチャルコミッショニング実装",
+    "status": "completed",
+    "priority": "high",
+    "id": "phase4"
+  },
+  {
+    "content": "Phase 5: 実機連携・展開準備",
+    "status": "completed",
+    "priority": "medium",
+    "id": "phase5"
+  },
+  {
+    "content": "Phase 6: プロジェクト管理・品質保証",
+    "status": "completed",
+    "priority": "medium",
+    "id": "phase6"
+  }
+]

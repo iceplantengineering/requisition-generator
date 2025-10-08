@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Phase 1: 基盤通信システム構築 - TCP/UDP通信インターフェースとJSON形式メッセージング実装",
+    "status": "completed"
+  },
+  {
+    "content": "外部Pythonアプリケーション構造設計とRobotTeachingAppクラス実装",
+    "status": "completed"
+  },
+  {
+    "content": "Visual ComponentsロボットコンポーネントPythonスクリプト作成",
+    "status": "completed"
+  },
+  {
+    "content": "ツールコントローラー（溶接ガン・グリッパー）スクリプト実装",
+    "status": "completed"
+  },
+  {
+    "content": "基本I/O制御とメッセージハンドリング機能実装",
+    "status": "in_progress"
+  },
+  {
+    "content": "Phase 2準備: 基本ハンドリング作業用の設定ファイル構造設計",
+    "status": "pending"
+  }
+]

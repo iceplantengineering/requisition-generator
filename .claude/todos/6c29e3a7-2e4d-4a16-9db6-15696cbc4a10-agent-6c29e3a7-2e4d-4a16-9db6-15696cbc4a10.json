@@ -1,0 +1,98 @@
+[
+  {
+    "content": "Visual Componentsでのプログラマチックなコンポーネント生成検証",
+    "status": "completed",
+    "priority": "high",
+    "id": "vc_component_generation"
+  },
+  {
+    "content": "既存のVC関連ファイルの確認",
+    "status": "completed",
+    "priority": "medium",
+    "id": "check_existing_vc_files"
+  },
+  {
+    "content": "コンポーネント生成APIの動作テスト",
+    "status": "completed",
+    "priority": "high",
+    "id": "test_component_api"
+  },
+  {
+    "content": "代替手法の検討・実装",
+    "status": "completed",
+    "priority": "medium",
+    "id": "alternative_approaches"
+  },
+  {
+    "content": "ビヘイビア内Python実行環境の診断",
+    "status": "completed",
+    "priority": "high",
+    "id": "behavior_python_diagnosis"
+  },
+  {
+    "content": "最小構成での出力確認テスト",
+    "status": "completed",
+    "priority": "high",
+    "id": "minimal_output_test"
+  },
+  {
+    "content": "API属性の全体探索テスト",
+    "status": "completed",
+    "priority": "high",
+    "id": "api_exploration"
+  },
+  {
+    "content": "app.createComponentのテスト実行",
+    "status": "completed",
+    "priority": "high",
+    "id": "test_component_api"
+  },
+  {
+    "content": "パレタイジングシステムの実装",
+    "status": "completed",
+    "priority": "high",
+    "id": "implement_palletizing_system"
+  },
+  {
+    "content": "コンポーネントの位置制御テスト",
+    "status": "pending",
+    "priority": "medium",
+    "id": "position_control_test"
+  },
+  {
+    "content": "ビヘイビアスコープ制限の調査",
+    "status": "completed",
+    "priority": "high",
+    "id": "behavior_scope_investigation"
+  },
+  {
+    "content": "グローバルScript Editorの探索",
+    "status": "completed",
+    "priority": "high",
+    "id": "global_script_editor_exploration"
+  },
+  {
+    "content": "Script Consoleの詳細調査",
+    "status": "completed",
+    "priority": "high",
+    "id": "script_console_investigation"
+  },
+  {
+    "content": "Python Console Add-onのインストール",
+    "status": "pending",
+    "priority": "high",
+    "id": "python_console_addon_install"
+  },
+  {
+    "content": "試行錯誤経過のREADME作成",
+    "status": "completed",
+    "priority": "high",
+    "id": "create_trial_readme"
+  },
+  {
+    "content": "GitHubアップロードの準備",
+    "status": "completed",
+    "priority": "medium",
+    "id": "prepare_github_upload"
+  }
+]

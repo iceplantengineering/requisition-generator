@@ -1,0 +1,32 @@
+[
+  {
+    "content": "ISCCOperation_client.pdfを読み込み顧客フィードバックを分析",
+    "status": "in_progress",
+    "activeForm": "ISCCOperation_client.pdfを読み込み顧客フィードバックを分析"
+  },
+  {
+    "content": "既存コードベースの構造を把握",
+    "status": "pending",
+    "activeForm": "既存コードベースの構造を把握"
+  },
+  {
+    "content": "追加・削除・再編集機能の洗い出し",
+    "status": "pending",
+    "activeForm": "追加・削除・再編集機能の洗い出し"
+  },
+  {
+    "content": "LLM API連携機能の設計",
+    "status": "pending",
+    "activeForm": "LLM API連携機能の設計"
+  },
+  {
+    "content": "PDFレポート出力機能の設計",
+    "status": "pending",
+    "activeForm": "PDFレポート出力機能の設計"
+  },
+  {
+    "content": "新機能の実装",
+    "status": "pending",
+    "activeForm": "新機能の実装"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "content": "セキュリティ修正：デバッグモード無効化とCSRF対策",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "データベース導入によるデータ整合性確保",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "エラーハンドリングの強化",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "パフォーマンス最適化",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "モバイル対応の改善",
+    "status": "completed",
+    "priority": "medium",
+    "id": "5"
+  },
+  {
+    "content": "ドラッグ&ドロップ機能",
+    "status": "completed",
+    "priority": "medium",
+    "id": "6"
+  }
+]

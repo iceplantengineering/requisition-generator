@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Visual Components接続確認 - 基本接続テストの実行",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Visual Componentsレイアウト構築 - パレタイジングシステムの作成",
+    "status": "pending",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "実機運用監視システムの構築 - リアルタイム性能監視とデータ収集",
+    "status": "pending",
+    "priority": "medium",
+    "id": "3"
+  },
+  {
+    "content": "大規模システム拡張設計 - 5台以上ロボット協調制御アーキテクチャ",
+    "status": "pending",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "予知保全システムの本格稼働 - AI故障予測の実環境適用",
+    "status": "pending",
+    "priority": "medium",
+    "id": "5"
+  }
+]

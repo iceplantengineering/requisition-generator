@@ -1,0 +1,20 @@
+[
+  {
+    "content": "CORSエラーを解決する - ファイルプロトコルの問題",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "addEventListenerのnullエラーを修正する",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "CSVデータをJavaScript内に組み込みで代替する",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  }
+]

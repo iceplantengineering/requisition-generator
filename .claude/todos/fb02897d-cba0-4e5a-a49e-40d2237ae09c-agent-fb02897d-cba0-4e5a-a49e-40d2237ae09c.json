@@ -1,0 +1,42 @@
+[
+  {
+    "content": "Renderアカウントにログインして新しいサービスを作成",
+    "status": "completed",
+    "activeForm": "Renderアカウントにログインして新しいサービスを作成中"
+  },
+  {
+    "content": "GitHubリポジトリを接続",
+    "status": "completed",
+    "activeForm": "GitHubリポジトリを接続中"
+  },
+  {
+    "content": "Dockerコンテナの設定を構成",
+    "status": "completed",
+    "activeForm": "Dockerコンテナの設定を構成中"
+  },
+  {
+    "content": "環境変数を設定（必要に応じて）",
+    "status": "completed",
+    "activeForm": "環境変数を設定中"
+  },
+  {
+    "content": "デプロイを実行",
+    "status": "completed",
+    "activeForm": "デプロイを実行中"
+  },
+  {
+    "content": "Dockerfileを改善してワークフロー自動読み込みを実装",
+    "status": "completed",
+    "activeForm": "Dockerfileを改善してワークフロー自動読み込みを実装中"
+  },
+  {
+    "content": "変更をコミット＆プッシュ",
+    "status": "completed",
+    "activeForm": "変更をコミット＆プッシュ中"
+  },
+  {
+    "content": "Renderで再デプロイ",
+    "status": "in_progress",
+    "activeForm": "Renderで再デプロイ中"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Check if backend and frontend processes are running",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Initialize database and generate dummy data",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Start backend API server",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Start frontend development server",
+    "status": "completed",
+    "id": "4"
+  }
+]

@@ -1,0 +1,128 @@
+import React, { useState, useEffect } from "react";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Alert, AlertDescription } from "@/components/ui/alert";
+import { Shield, Lock, FileText, Users } from "lucide-react";
+
+const NDAGateway: React.FC<{ onAccept: () => void }> = ({ onAccept }) => {
+  const [isChecked, setIsChecked] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  useEffect(() => {
+    const consent = sessionStorage.getItem('nda-consent');
+    if (consent === 'accepted') {
+      onAccept();
+    }
+  }, [onAccept]);
+
+  const handleAccept = () => {
+    if (!isChecked) return;
+
+    setIsSubmitting(true);
+    sessionStorage.setItem('nda-consent', 'accepted');
+    sessionStorage.setItem('nda-consent-timestamp', new Date().toISOString());
+
+    setTimeout(() => {
+      onAccept();
+    }, 500);
+  };
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 flex items-center justify-center p-4">
+      <div className="w-full max-w-4xl">
+        <div className="text-center mb-8">
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-600 rounded-full mb-4">
+            <Shield className="w-8 h-8 text-white" />
+          </div>
+          <h1 className="text-3xl font-bold text-slate-900 mb-2">Welcome to Our Partnership Portal</h1>
+          <p className="text-slate-600">A collaborative platform for sustainable materials innovation</p>
+        </div>
+
+        <Card className="shadow-xl border-0">
+          <CardHeader className="bg-slate-50 border-b">
+            <CardTitle className="flex items-center gap-2 text-slate-900">
+              <Users className="w-5 h-5" />
+              Partnership Access Confirmation
+            </CardTitle>
+            <CardDescription>
+              Please confirm your understanding of our collaborative system
+            </CardDescription>
+          </CardHeader>
+
+          <CardContent className="p-8">
+            <div className="space-y-6">
+              <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-8 border border-blue-100">
+              <div className="text-center space-y-4">
+                <div className="inline-flex items-center justify-center w-12 h-12 bg-blue-100 rounded-full mb-4">
+                  <Users className="w-6 h-6 text-blue-600" />
+                </div>
+                <h3 className="text-xl font-semibold text-slate-900">
+                  Welcome to the ISCC+ Production Manager
+                </h3>
+                <p className="text-slate-600 max-w-md mx-auto">
+                  This collaborative system is designed for partnership between
+                  <strong> ShinMaywa USA, Inc.</strong> and <strong> Toray Industries, Inc.</strong>
+                </p>
+                <p className="text-sm text-slate-500">
+                  Together we're working on sustainable materials production and ISCC+ certification management
+                </p>
+              </div>
+            </div>
+
+              <div className="bg-slate-50 rounded-lg p-6 border border-slate-200">
+                <div className="flex items-start space-x-4">
+                  <Checkbox
+                    id="nda-accept"
+                    checked={isChecked}
+                    onCheckedChange={(checked) => setIsChecked(checked as boolean)}
+                    className="mt-1"
+                  />
+                  <div className="flex-1 space-y-2">
+                    <label
+                      htmlFor="nda-accept"
+                      className="text-base font-medium text-slate-900 cursor-pointer hover:text-blue-700 transition-colors"
+                    >
+                      I understand this is a shared system for our business partnership
+                    </label>
+                    <p className="text-sm text-slate-600 leading-relaxed">
+                      I confirm that I'm an authorized user working on collaborative projects between
+                      ShinMaywa USA, Inc. and Toray Industries, Inc. I'll use this system responsibly
+                      for our joint business objectives.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex justify-center pt-4">
+                <Button
+                  onClick={handleAccept}
+                  disabled={!isChecked || isSubmitting}
+                  className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                  size="lg"
+                >
+                  {isSubmitting ? (
+                    <span className="flex items-center gap-2">
+                      <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
+                      Processing...
+                    </span>
+                  ) : (
+                    "Continue to Application"
+                  )}
+                </Button>
+              </div>
+
+              <div className="text-center pt-6 border-t border-slate-200">
+                <p className="text-sm text-slate-600">
+                  Thank you for being part of our partnership. Let's work together toward sustainable materials excellence.
+                </p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+    </div>
+  );
+};
+
+export default NDAGateway;

@@ -1,0 +1,32 @@
+[
+  {
+    "content": "現状の問題点と解決状況をまとめる",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "次回再開用のREADMEを作成",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "GitHub用プロジェクト構成を整理",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  },
+  {
+    "content": "ファイル構成とステータスを記録",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "再開手順の詳細インストラクションを作成",
+    "status": "completed",
+    "priority": "high",
+    "id": "5"
+  }
+]

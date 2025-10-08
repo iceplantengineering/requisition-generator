@@ -1,0 +1,44 @@
+[
+  {
+    "content": "空間インデックス（Octree）システムの実装",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "幾何干渉判定アルゴリズムの実装",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "並列処理・最適化システムの実装",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "干渉検出結果の可視化機能",
+    "status": "completed",
+    "priority": "high",
+    "id": "4"
+  },
+  {
+    "content": "パフォーマンス測定・統計機能",
+    "status": "completed",
+    "priority": "medium",
+    "id": "5"
+  },
+  {
+    "content": "統合テストとデモ",
+    "status": "completed",
+    "priority": "medium",
+    "id": "6"
+  },
+  {
+    "content": "TypeScript型エラーの修正",
+    "status": "completed",
+    "priority": "high",
+    "id": "7"
+  }
+]

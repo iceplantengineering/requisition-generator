@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Python Console Add-onの状況確認 - Visual Components 4.10+でAdd-onのインストール・アクティブ化状況をチェック",
+    "status": "in_progress"
+  },
+  {
+    "content": "Visual Componentsの基本動作確認 - アプリケーション起動とScript Editorアクセス",
+    "status": "pending"
+  },
+  {
+    "content": "システム診断スクリプト実行 - 環境属性とバージョン対応確認",
+    "status": "pending"
+  },
+  {
+    "content": "外部制御システム起動テスト - vc_file_watcher.pyまたは代替手順での動作確認",
+    "status": "pending"
+  },
+  {
+    "content": "デモシステム実行 - vc_external_demo.pyで24個Box自動配置テスト",
+    "status": "pending"
+  }
+]

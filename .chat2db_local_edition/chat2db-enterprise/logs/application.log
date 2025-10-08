@@ -1,0 +1,159 @@
+2025-05-23 20:42:07.670  INFO 1196 --- [main] ai.chat2db.server.start.Application     .51 :  | Starting Application v2.0.0-SNAPSHOT using Java 17.0.13 with PID 1196 (C:\Users\yamaj\AppData\Local\Programs\Chat2DB Local\resources\app\static\chat2db-enterprise.jar started by yamaj in C:\Users\yamaj\AppData\Local\Programs\Chat2DB Local)
+2025-05-23 20:42:07.675  INFO 1196 --- [pool-1-thread-8] CHANNEL_LOGGER                          .134 :  | request url:/api/task/list,uuid:6ca20a22-73a8-4c36-953e-b5cf475cabd0
+2025-05-23 20:42:07.673  INFO 1196 --- [pool-1-thread-6] CHANNEL_LOGGER                          .134 :  | request url:/api/namespaces/tree_list,uuid:1c88cd39-2ebc-4722-8d41-633729656dac
+2025-05-23 20:42:07.675  INFO 1196 --- [pool-1-thread-7] CHANNEL_LOGGER                          .134 :  | request url:/api/operation/saved/list,uuid:b8886727-9927-4b28-a520-2f3253694cbf
+2025-05-23 20:42:07.682 ERROR 1196 --- [pool-1-thread-8] CHANNEL_LOGGER                          .231 : 6ca20a22-73a8-4c36-953e-b5cf475cabd0 | ConsoleInputListener2 onMessage error
+
+ai.chat2db.server.tools.base.excption.BusinessException: api.trialExpired
+	at ai.chat2db.server.web.api.util.CalUtils.calOrValidLicense(CalUtils.java:109)
+	at ai.chat2db.server.start.controller.console.ConsoleHelper.lambda$onMessage$2(ConsoleHelper.java:202)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2025-05-23 20:42:07.684  INFO 1196 --- [main] ai.chat2db.server.start.Application     .639 :  | The following 1 profile is active: "release"
+2025-05-23 20:42:07.684  INFO 1196 --- [pool-1-thread-8] CHANNEL_LOGGER                          .349 : 6ca20a22-73a8-4c36-953e-b5cf475cabd0 | returnMessage:CHAT2DB_IPC_RESPONSE:H4sIAAAAAAAA/22MOw7CMBBE77J1TKI4H0iLKOngAJv1JlgYHPyRQFHujiOgo5x5b2YGpKDt/fSaGDpg56yDDG7sPY6pmcFHopSgG9B4zj7K8ccBJ70JTqM5PCftWMHX2Fv1Fy/rebhYleDIIemOH5F9ODuTqjwN8oD+mhvtVxqjXtWGsCywLEUrcSsqko3Y1ZJFX9NQtTVhrwpY3iVDBVvOAAAA:CHAT2DB_IPC_RESPONSE_END
+2025-05-23 20:42:07.951  INFO 1196 --- [pool-1-thread-6] CHANNEL_LOGGER                          .349 : 1c88cd39-2ebc-4722-8d41-633729656dac | returnMessage:CHAT2DB_IPC_RESPONSE:H4sIAAAAAAAA/21TXY/aMBD8L34tCZBwBPJGAalU1+NaoGqvqk6LvRDTJM75gx5F/PeuA6RUurf1endmdsc+MuBWqnJ5qJClDF+RO4usxQo0BraUOzIBFlj64xocGeQSDFULLBSVgrMZllZyuEHq0oXQco96rMqN3Po+7oxVBUs3kBuka9yAy+2krmqyO7Hm1xQrDuYlD7gqS+RW6WAHewgGYSeMO+EONLstH+dgvCquirDuC/ku9NfhBe7UYljupVZlQXJngqURZV4tlmJWblQ94i88EMQf1GoCFpeywPeYwV4qz6XxxUmNotG6h9xhTVkSgV2qB5fn7PSzxTIwj6gLaQythKVWOyrPlLFUnSsOeR23mCSwbhIPOkl8lwyjXhT37ihrRqKQTV9Fg/1WWnim6SyZf9y8i+bxuqOn43jybVHpp69ikXxYZPyJICulPUscd/p0MiarLXvLowb3LO0BCp+lU63w8YzD/uP/hx9FFDuDzTIo1lcIWjVZrekBXajG9/PVxMtxle+n5cIabpov+QXPsIAma8/Nn74vPt97Np3TyVua1gan7Xazy9TP2z5L8i9HK2W9jLcXfAGejJaj58V89WU8rV0zjnP0j8jv/eQ/gc2UH3uL9uI/GruqZbShku2S5jUVUFPbasTnXNauOudpWZcPBlzEwyDCNQ96SRQFA9HrBv04TqJh/64vgLPTXxsze92DAwAA:CHAT2DB_IPC_RESPONSE_END
+2025-05-23 20:42:07.979  INFO 1196 --- [pool-1-thread-7] CHANNEL_LOGGER                          .349 : b8886727-9927-4b28-a520-2f3253694cbf | returnMessage:CHAT2DB_IPC_RESPONSE:H4sIAAAAAAAA/21Qy07DQAz8FeQTSKmSbt69ISEkJCiPlgNCHJzEbSOl2RDvopYq/463EaUHLrvjsT225wBYmlq3y31HMAPaUWkNgQdbYsa1cAeo0ODf/z6ChbZ9SXcVzKZpmAVpGKe5ilQYxd5Zfo5bJ1vRVsPIF8i/LO/ZkVUjWEB90opVECVJeNRqT7UXl07mSip1Rz2ebV3qlnXjtmaDxrJQNy/Xt0shZOBjRy2JNuxdPHY8vC2e72H48GCDPKedeTreusKGyYNOgrmWbUa4qL8lpwLp1gZl2+nwfx/bshTbYGZ6S4Pz0Gy0m7wmI7N7+rTE5rV3B/vY1f7pEJ/xiyq/qdkVWuu8gCLLsiRV6STP5YkKlU1QrJmoVajiMMmjsljB8AON9sZpwgEAAA==:CHAT2DB_IPC_RESPONSE_END
+2025-05-23 20:42:08.712  INFO 1196 --- [pool-1-thread-9] CHANNEL_LOGGER                          .134 :  | request url:/api/rdb/database/list,uuid:37428ea4-49bf-455e-a9c7-6a7b122c6bb3
+2025-05-23 20:42:08.713 ERROR 1196 --- [pool-1-thread-9] CHANNEL_LOGGER                          .231 : 37428ea4-49bf-455e-a9c7-6a7b122c6bb3 | ConsoleInputListener2 onMessage error
+
+ai.chat2db.server.tools.base.excption.BusinessException: api.trialExpired
+	at ai.chat2db.server.web.api.util.CalUtils.calOrValidLicense(CalUtils.java:109)
+	at ai.chat2db.server.start.controller.console.ConsoleHelper.lambda$onMessage$2(ConsoleHelper.java:202)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2025-05-23 20:42:08.714  INFO 1196 --- [pool-1-thread-9] CHANNEL_LOGGER                          .349 : 37428ea4-49bf-455e-a9c7-6a7b122c6bb3 | returnMessage:CHAT2DB_IPC_RESPONSE:H4sIAAAAAAAA/22MwQ6CMBBE/2XP1EYoIF6NR2/6Adt2wSZocdsmGsK/W6LePM68NzMDmuj8/fyaCPZAzJ6hgBuFgENuZgjJmJxg3+MYqPgopx8HnNwmssPx+Jwck4WvcfD2L17W83j1NsOBYtaZHolCvPCYK5kHkq2WFiNqDCRHF1YrJbdOqlaVO0IlVKd7oeqaBHamFQ22eluWptG6guUNqi6mltYAAAA=:CHAT2DB_IPC_RESPONSE_END
+2025-05-23 20:42:08.720  INFO 1196 --- [pool-1-thread-10] CHANNEL_LOGGER                          .134 :  | request url:/api/sql_parser/get_keywords,uuid:eb210900-1ed2-48e1-9bce-6f3be2b9fd76
+2025-05-23 20:42:08.723 ERROR 1196 --- [pool-1-thread-10] CHANNEL_LOGGER                          .231 : eb210900-1ed2-48e1-9bce-6f3be2b9fd76 | ConsoleInputListener2 onMessage error
+
+ai.chat2db.server.tools.base.excption.BusinessException: api.trialExpired
+	at ai.chat2db.server.web.api.util.CalUtils.calOrValidLicense(CalUtils.java:109)
+	at ai.chat2db.server.start.controller.console.ConsoleHelper.lambda$onMessage$2(ConsoleHelper.java:202)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2025-05-23 20:42:08.725  INFO 1196 --- [pool-1-thread-10] CHANNEL_LOGGER                          .349 : eb210900-1ed2-48e1-9bce-6f3be2b9fd76 | returnMessage:CHAT2DB_IPC_RESPONSE:H4sIAAAAAAAA/22MuQ7CMBBE/2XrmBygQGgRJR3UkY9NsDDYWduCKMq/4wjoKGfem5mAy6Dt4zw6hD0gkSXI4I7e8z41E/goZUqw77jxmH2U048Dd3oVSHNzfDlNqOBrHKz6i+flPFytSrDHkHTCIaIPFzKpytMg94NpHSePlCelveH4tKR8cmPUyxBFVRZNUbASVcU2OyxZIySyulsLrETTqW0N8xvFJLin3AAAAA==:CHAT2DB_IPC_RESPONSE_END
+2025-05-23 20:42:09.889  INFO 1196 --- [pool-1-thread-11] CHANNEL_LOGGER                          .134 :  | request url:/api/sql_parser/context/parser,uuid:42522b48-120d-466c-94a1-b92806ff4df6
+2025-05-23 20:42:09.890 ERROR 1196 --- [pool-1-thread-11] CHANNEL_LOGGER                          .231 : 42522b48-120d-466c-94a1-b92806ff4df6 | ConsoleInputListener2 onMessage error
+
+ai.chat2db.server.tools.base.excption.BusinessException: api.trialExpired
+	at ai.chat2db.server.web.api.util.CalUtils.calOrValidLicense(CalUtils.java:109)
+	at ai.chat2db.server.start.controller.console.ConsoleHelper.lambda$onMessage$2(ConsoleHelper.java:202)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2025-05-23 20:42:09.891  INFO 1196 --- [pool-1-thread-11] CHANNEL_LOGGER                          .349 : 42522b48-120d-466c-94a1-b92806ff4df6 | returnMessage:CHAT2DB_IPC_RESPONSE:H4sIAAAAAAAA/22MwQ6CMBBE/2XPYKGpBLgaj970bEq71SZIy7YkGMK/W4LePM68N7OAVNG64fr2CC0gkSPI4IUhyEdqFgiTUilBa2QfMNuVy4+D9PYQycr+PHtLqOFrnJz+i9ftPD6dTtC7EJNPOE4Y4o361LG0YGHs715SQGLKDRHnyPaY7Gmy21bwI+edqPOSFzoXVaXyRsgy7xpeF5UxQpsK1g9c6khc3wAAAA==:CHAT2DB_IPC_RESPONSE_END
+2025-05-23 20:42:12.294  INFO 1196 --- [main] a.c.s.w.a.c.ai.biz.DeviceService        .87 :  | id: EF318BD27C56D0DF13BCB12154A3329AD41D8CD98F00B204E9800998ECF8427ED41D8CD98F00B204E9800998ECF8427E, coId: EF318BD27C56D0DF13BCB12154A3329AD41D8CD98F00B204E9800998ECF8427ED41D8CD98F00B204E9800998ECF8427E, notMatch: false, notEqual: false, did:670345, os:windows
+2025-05-23 20:42:12.471  INFO 1196 --- [main] c.d.forest.config.ForestConfiguration   .449 :  | [Forest] Http Backend: okhttp3
+2025-05-23 20:42:12.479 ERROR 1196 --- [main] a.c.s.w.a.c.ai.biz.DeviceService        .35 :  | Error occurred during initialization: api.trialExpired
+
+ai.chat2db.server.tools.base.excption.BusinessException: api.trialExpired
+	at ai.chat2db.server.web.api.util.CalUtils.calOrValidLicense(CalUtils.java:109)
+	at ai.chat2db.server.web.api.http.aspect.GatewayUserInterceptor.copyStorageToForestRequest(GatewayUserInterceptor.java:115)
+	at ai.chat2db.server.web.api.http.aspect.GatewayUserInterceptor.beforeExecute(GatewayUserInterceptor.java:32)
+	at com.dtflys.forest.interceptor.InterceptorChain.beforeExecute(InterceptorChain.java:46)
+	at com.dtflys.forest.http.ForestRequest.execute(ForestRequest.java:4692)
+	at com.dtflys.forest.http.ForestRequest.execute(ForestRequest.java:4878)
+	at com.dtflys.forest.http.ForestRequest.execute(ForestRequest.java:4890)
+	at ai.chat2db.server.web.api.http.GatewayUtil.getLatestVersion(GatewayUtil.java:1178)
+	at ai.chat2db.server.web.api.controller.ai.biz.DeviceService.executeTask(DeviceService.java:57)
+	at ai.chat2db.server.web.api.controller.ai.biz.DeviceService.init(DeviceService.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:425)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:369)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:193)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at ai.chat2db.server.start.Application.main(Application.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:95)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65)
+
+2025-05-23 20:42:12.688  INFO 1196 --- [main] ai.chat2db.server.start.Application     .57 :  | Started Application in 7.124 seconds (process running for 10.702)
+2025-05-23 20:42:13.667  INFO 1196 --- [scheduling-1] a.c.s.w.a.c.ai.biz.DeviceService        .87 :  | id: EF318BD27C56D0DF13BCB12154A3329AD41D8CD98F00B204E9800998ECF8427ED41D8CD98F00B204E9800998ECF8427E, coId: EF318BD27C56D0DF13BCB12154A3329AD41D8CD98F00B204E9800998ECF8427ED41D8CD98F00B204E9800998ECF8427E, notMatch: false, notEqual: false, did:670345, os:windows
+2025-05-23 20:42:13.670 ERROR 1196 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler   .95 :  | Unexpected error occurred in scheduled task
+
+ai.chat2db.server.tools.base.excption.BusinessException: api.trialExpired
+	at ai.chat2db.server.web.api.util.CalUtils.calOrValidLicense(CalUtils.java:109)
+	at ai.chat2db.server.web.api.http.aspect.GatewayUserInterceptor.copyStorageToForestRequest(GatewayUserInterceptor.java:115)
+	at ai.chat2db.server.web.api.http.aspect.GatewayUserInterceptor.beforeExecute(GatewayUserInterceptor.java:32)
+	at com.dtflys.forest.interceptor.InterceptorChain.beforeExecute(InterceptorChain.java:46)
+	at com.dtflys.forest.http.ForestRequest.execute(ForestRequest.java:4692)
+	at com.dtflys.forest.http.ForestRequest.execute(ForestRequest.java:4878)
+	at com.dtflys.forest.http.ForestRequest.execute(ForestRequest.java:4890)
+	at ai.chat2db.server.web.api.http.GatewayUtil.getLatestVersion(GatewayUtil.java:1178)
+	at ai.chat2db.server.web.api.controller.ai.biz.DeviceService.executeTask(DeviceService.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2025-05-23 20:43:14.900 ERROR 1196 --- [pool-1-thread-12] CHANNEL_LOGGER                          .585 :  | decompressFromBase64 error
+
+java.lang.IllegalArgumentException: Illegal base64 character 5b
+	at java.base/java.util.Base64$Decoder.decode0(Base64.java:848)
+	at java.base/java.util.Base64$Decoder.decode(Base64.java:566)
+	at java.base/java.util.Base64$Decoder.decode(Base64.java:589)
+	at ai.chat2db.server.start.controller.console.ConsoleHelper.decompress(ConsoleHelper.java:573)
+	at ai.chat2db.server.start.controller.console.ConsoleHelper.lambda$onMessage$2(ConsoleHelper.java:130)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2025-05-23 20:43:14.903 ERROR 1196 --- [pool-1-thread-12] CHANNEL_LOGGER                          .231 :  | ConsoleInputListener2 onMessage error
+
+com.alibaba.fastjson2.JSONException: expect {, but [, class ai.chat2db.server.start.controller.console.ConsoleMessage, offset 1, character [, line 1, column 1, fastjson-version 2.0.49 [object Object]
+	at com.alibaba.fastjson2.reader.ObjectReaderBean.processObjectInputSingleItemArray(ObjectReaderBean.java:92)
+	at com.alibaba.fastjson2.reader.ORG_1_7_ConsoleMessage.readObject(Unknown Source)
+	at com.alibaba.fastjson2.JSON.parseObject(JSON.java:786)
+	at com.alibaba.fastjson2.JSONObject.parseObject(JSONObject.java:1984)
+	at ai.chat2db.server.start.controller.console.ConsoleHelper.lambda$onMessage$2(ConsoleHelper.java:130)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+

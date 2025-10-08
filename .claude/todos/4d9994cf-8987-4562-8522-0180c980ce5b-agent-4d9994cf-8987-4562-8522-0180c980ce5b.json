@@ -1,0 +1,50 @@
+[
+  {
+    "content": "タスク進捗率入力機能の実装",
+    "status": "completed",
+    "priority": "high",
+    "id": "45"
+  },
+  {
+    "content": "進捗バーの計算ロジックの修正",
+    "status": "completed",
+    "priority": "high",
+    "id": "46"
+  },
+  {
+    "content": "依存関係APIエンドポイントの修正",
+    "status": "completed",
+    "priority": "medium",
+    "id": "41"
+  },
+  {
+    "content": "プロジェクト読み込みエラーの修正",
+    "status": "completed",
+    "priority": "high",
+    "id": "49"
+  },
+  {
+    "content": "データベーススキーマの更新",
+    "status": "completed",
+    "priority": "medium",
+    "id": "48"
+  },
+  {
+    "content": "README更新とGitHubアップロード",
+    "status": "completed",
+    "priority": "medium",
+    "id": "50"
+  },
+  {
+    "content": "データのインポート機能",
+    "status": "pending",
+    "priority": "low",
+    "id": "26"
+  },
+  {
+    "content": "ユーザビリティの改善",
+    "status": "pending",
+    "priority": "medium",
+    "id": "27"
+  }
+]

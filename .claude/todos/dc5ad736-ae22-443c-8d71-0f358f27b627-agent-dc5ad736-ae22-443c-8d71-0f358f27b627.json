@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Netlifyアカウント設定・プロジェクトインポート",
+    "status": "completed"
+  },
+  {
+    "content": "ビルド設定の確認・調整",
+    "status": "completed"
+  },
+  {
+    "content": "Functions設定の確認",
+    "status": "completed"
+  },
+  {
+    "content": "デプロイテスト実行",
+    "status": "completed"
+  },
+  {
+    "content": "本番環境での動作確認",
+    "status": "in_progress"
+  }
+]

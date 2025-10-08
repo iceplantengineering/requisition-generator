@@ -1,0 +1,44 @@
+[
+  {
+    "content": "PDFファイルの内容を確認してデータ構造を理解する",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "PDF読み取り機能を実装する",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "コストデータ抽出・パース機能を実装する",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "データ分析・集計機能を実装する",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "ダッシュボードUIを作成する",
+    "status": "completed",
+    "priority": "medium",
+    "id": "5"
+  },
+  {
+    "content": "データ可視化機能を実装する",
+    "status": "completed",
+    "priority": "medium",
+    "id": "6"
+  },
+  {
+    "content": "アプリケーションを起動してテストする",
+    "status": "completed",
+    "priority": "high",
+    "id": "7"
+  }
+]

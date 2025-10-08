@@ -1,0 +1,26 @@
+[
+  {
+    "content": "AI最適化システム実装（機械学習によるパレタイジングパターン自動最適化）",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "デジタルツイン構築（実機完全同期シミュレーション環境）",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "マルチロボット協調制御システム開発",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  },
+  {
+    "content": "予知保全・故障予測システム実装",
+    "status": "completed",
+    "priority": "high",
+    "id": "4"
+  }
+]
