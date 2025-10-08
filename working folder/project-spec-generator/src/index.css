@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+.markdown-container {
+  background-color: #f8fafc;
+}
+
+.markdown-body {
+  color: #1f2937;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  word-break: break-word;
+}
+
+.markdown-body h1 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+}
+
+.markdown-body h2 {
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 0.4rem;
+}
+
+.markdown-body h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.6rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.markdown-body h4 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.markdown-body p {
+  margin: 0.75rem 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  margin: 0.75rem 0 0.75rem 1.5rem;
+  padding-left: 1rem;
+}
+
+.markdown-body li {
+  margin: 0.4rem 0;
+}
+
+.markdown-body code {
+  background-color: #e2e8f0;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+  font-family: "JetBrains Mono", "SFMono-Regular", Menlo, monospace;
+  font-size: 0.9em;
+}
+
+.markdown-body pre {
+  background-color: #0f172a;
+  color: #e2e8f0;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.markdown-body pre code {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  color: inherit;
+}
+
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.2rem 0;
+  font-size: 0.9rem;
+}
+
+.markdown-body th,
+.markdown-body td {
+  border: 1px solid #cbd5f5;
+  padding: 0.6rem 0.75rem;
+  text-align: left;
+}
+
+.markdown-body th {
+  background-color: #e2e8f0;
+  font-weight: 600;
+}
+
+.markdown-body blockquote {
+  border-left: 4px solid #cbd5f5;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: #475569;
+  background-color: #f1f5f9;
+}
+
+.markdown-body hr {
+  border: none;
+  border-bottom: 1px solid #cbd5f5;
+  margin: 2rem 0;
+}
